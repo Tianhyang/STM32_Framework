@@ -36,11 +36,11 @@ static bsp_uart_runtime_t s_uart_runtime[UART_ID_COUNT];
 
 static const bsp_uart_hw_t s_uart_hw[UART_ID_COUNT] = {
     [UART_ID_DEBUG] = {
-        .instance = USART1,
-        .tx_port = GPIOA,
-        .tx_pin = GPIO_PIN_9,
-        .rx_port = GPIOA,
-        .rx_pin = GPIO_PIN_10,
+        .instance = BOARD_UART_DEBUG_INSTANCE,
+        .tx_port = BOARD_UART_DEBUG_TX_PORT,
+        .tx_pin = BOARD_UART_DEBUG_TX_PIN,
+        .rx_port = BOARD_UART_DEBUG_RX_PORT,
+        .rx_pin = BOARD_UART_DEBUG_RX_PIN,
         .baudrate = BOARD_UART_DEBUG_BAUDRATE,
     },
 };

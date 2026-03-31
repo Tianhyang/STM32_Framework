@@ -3526,7 +3526,7 @@ LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.
                 0x0000000008000000                g_pfnVectors
                 0x00000000080001e4                . = ALIGN (0x4)
 
-.text           0x00000000080001e4     0x707c
+.text           0x00000000080001e4     0x7008
                 0x00000000080001e4                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080001e4       0x40 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -3557,796 +3557,796 @@ LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.
                 0x00000000080003e4       0x58 build/app/src/app_key.o
                 0x00000000080003e4                app_key_handle_event
  .text.app_key_demo_task
-                0x000000000800043c      0x144 build/app/src/app_key_demo.o
+                0x000000000800043c       0xd0 build/app/src/app_key_demo.o
  .text.app_key_demo_start
-                0x0000000008000580       0x3c build/app/src/app_key_demo.o
-                0x0000000008000580                app_key_demo_start
+                0x000000000800050c       0x3c build/app/src/app_key_demo.o
+                0x000000000800050c                app_key_demo_start
  .text.app_key_input_irq_callback
-                0x00000000080005bc       0x50 build/app/src/app_key_input.o
+                0x0000000008000548       0x50 build/app/src/app_key_input.o
  .text.app_key_input_init
-                0x000000000800060c       0x44 build/app/src/app_key_input.o
-                0x000000000800060c                app_key_input_init
+                0x0000000008000598       0x44 build/app/src/app_key_input.o
+                0x0000000008000598                app_key_input_init
  .text.app_key_input_wait
-                0x0000000008000650       0x1a build/app/src/app_key_input.o
-                0x0000000008000650                app_key_input_wait
- *fill*         0x000000000800066a        0x2 
+                0x00000000080005dc       0x1a build/app/src/app_key_input.o
+                0x00000000080005dc                app_key_input_wait
+ *fill*         0x00000000080005f6        0x2 
  .text.app_led_demo_task
-                0x000000000800066c       0x6c build/app/src/app_led_demo.o
+                0x00000000080005f8       0x6c build/app/src/app_led_demo.o
  .text.app_led_demo_start
-                0x00000000080006d8       0x3c build/app/src/app_led_demo.o
-                0x00000000080006d8                app_led_demo_start
+                0x0000000008000664       0x3c build/app/src/app_led_demo.o
+                0x0000000008000664                app_led_demo_start
  .text.app_service_init
-                0x0000000008000714       0x24 build/app/src/app_service.o
-                0x0000000008000714                app_service_init
+                0x00000000080006a0       0x24 build/app/src/app_service.o
+                0x00000000080006a0                app_service_init
  .text.app_service_start
-                0x0000000008000738       0x1c build/app/src/app_service.o
-                0x0000000008000738                app_service_start
+                0x00000000080006c4       0x1c build/app/src/app_service.o
+                0x00000000080006c4                app_service_start
  .text.app_timer_heartbeat_callback
-                0x0000000008000754       0x16 build/app/src/app_timer.o
- *fill*         0x000000000800076a        0x2 
+                0x00000000080006e0       0x16 build/app/src/app_timer.o
+ *fill*         0x00000000080006f6        0x2 
  .text.app_timer_init
-                0x000000000800076c       0x40 build/app/src/app_timer.o
-                0x000000000800076c                app_timer_init
+                0x00000000080006f8       0x40 build/app/src/app_timer.o
+                0x00000000080006f8                app_timer_init
  .text.app_timer_start
-                0x00000000080007ac       0x44 build/app/src/app_timer.o
-                0x00000000080007ac                app_timer_start
+                0x0000000008000738       0x44 build/app/src/app_timer.o
+                0x0000000008000738                app_timer_start
  .text.app_task_start
-                0x00000000080007f0       0x34 build/app/src/app_task.o
-                0x00000000080007f0                app_task_start
+                0x000000000800077c       0x34 build/app/src/app_task.o
+                0x000000000800077c                app_task_start
  .text.log_write_prefix
-                0x0000000008000824       0x70 build/app/src/log.o
+                0x00000000080007b0       0x70 build/app/src/log.o
  .text.log_init
-                0x0000000008000894       0x2c build/app/src/log.o
-                0x0000000008000894                log_init
+                0x0000000008000820       0x2c build/app/src/log.o
+                0x0000000008000820                log_init
  .text.log_vprintf
-                0x00000000080008c0       0xcc build/app/src/log.o
-                0x00000000080008c0                log_vprintf
+                0x000000000800084c       0xcc build/app/src/log.o
+                0x000000000800084c                log_vprintf
  .text.log_printf
-                0x000000000800098c       0x36 build/app/src/log.o
-                0x000000000800098c                log_printf
- *fill*         0x00000000080009c2        0x2 
+                0x0000000008000918       0x36 build/app/src/log.o
+                0x0000000008000918                log_printf
+ *fill*         0x000000000800094e        0x2 
  .text.log_info
-                0x00000000080009c4       0x20 build/app/src/log.o
-                0x00000000080009c4                log_info
+                0x0000000008000950       0x20 build/app/src/log.o
+                0x0000000008000950                log_info
  .text.app_system_handle_event
-                0x00000000080009e4       0x60 build/app/src/app_system.o
-                0x00000000080009e4                app_system_handle_event
- .text.main     0x0000000008000a44       0x16 build/app/src/main.o
-                0x0000000008000a44                main
+                0x0000000008000970       0x60 build/app/src/app_system.o
+                0x0000000008000970                app_system_handle_event
+ .text.main     0x00000000080009d0       0x16 build/app/src/main.o
+                0x00000000080009d0                main
  .text.bsp_key_is_valid
-                0x0000000008000a5a       0x20 build/drivers/bsp/gpio/src/bsp_key.o
- *fill*         0x0000000008000a7a        0x2 
+                0x00000000080009e6       0x20 build/drivers/bsp/gpio/src/bsp_key.o
+ *fill*         0x0000000008000a06        0x2 
  .text.bsp_key_gpio_clock_enable
-                0x0000000008000a7c       0xd4 build/drivers/bsp/gpio/src/bsp_key.o
+                0x0000000008000a08       0xd4 build/drivers/bsp/gpio/src/bsp_key.o
  .text.key_init_mode
-                0x0000000008000b50       0xd0 build/drivers/bsp/gpio/src/bsp_key.o
-                0x0000000008000b50                key_init_mode
+                0x0000000008000adc       0xd0 build/drivers/bsp/gpio/src/bsp_key.o
+                0x0000000008000adc                key_init_mode
  .text.key_read
-                0x0000000008000c20       0x54 build/drivers/bsp/gpio/src/bsp_key.o
-                0x0000000008000c20                key_read
+                0x0000000008000bac       0x54 build/drivers/bsp/gpio/src/bsp_key.o
+                0x0000000008000bac                key_read
  .text.key_register_irq_callback
-                0x0000000008000c74       0x1c build/drivers/bsp/gpio/src/bsp_key.o
-                0x0000000008000c74                key_register_irq_callback
+                0x0000000008000c00       0x1c build/drivers/bsp/gpio/src/bsp_key.o
+                0x0000000008000c00                key_register_irq_callback
  .text.HAL_GPIO_EXTI_Callback
-                0x0000000008000c90       0x54 build/drivers/bsp/gpio/src/bsp_key.o
-                0x0000000008000c90                HAL_GPIO_EXTI_Callback
+                0x0000000008000c1c       0x54 build/drivers/bsp/gpio/src/bsp_key.o
+                0x0000000008000c1c                HAL_GPIO_EXTI_Callback
  .text.bsp_led_is_valid
-                0x0000000008000ce4       0x20 build/drivers/bsp/led/src/bsp_led.o
+                0x0000000008000c70       0x20 build/drivers/bsp/led/src/bsp_led.o
  .text.bsp_led_gpio_clock_enable
-                0x0000000008000d04       0xd4 build/drivers/bsp/led/src/bsp_led.o
+                0x0000000008000c90       0xd4 build/drivers/bsp/led/src/bsp_led.o
  .text.led_init
-                0x0000000008000dd8       0x78 build/drivers/bsp/led/src/bsp_led.o
-                0x0000000008000dd8                led_init
- .text.led_on   0x0000000008000e50       0x40 build/drivers/bsp/led/src/bsp_led.o
-                0x0000000008000e50                led_on
- .text.led_off  0x0000000008000e90       0x40 build/drivers/bsp/led/src/bsp_led.o
-                0x0000000008000e90                led_off
+                0x0000000008000d64       0x78 build/drivers/bsp/led/src/bsp_led.o
+                0x0000000008000d64                led_init
+ .text.led_on   0x0000000008000ddc       0x40 build/drivers/bsp/led/src/bsp_led.o
+                0x0000000008000ddc                led_on
+ .text.led_off  0x0000000008000e1c       0x40 build/drivers/bsp/led/src/bsp_led.o
+                0x0000000008000e1c                led_off
  .text.bsp_uart_is_valid
-                0x0000000008000ed0       0x20 build/drivers/bsp/uart/src/bsp_uart.o
+                0x0000000008000e5c       0x20 build/drivers/bsp/uart/src/bsp_uart.o
  .text.bsp_uart_find_id_from_handle
-                0x0000000008000ef0       0x4c build/drivers/bsp/uart/src/bsp_uart.o
+                0x0000000008000e7c       0x4c build/drivers/bsp/uart/src/bsp_uart.o
  .text.bsp_uart_lock
-                0x0000000008000f3c       0x3c build/drivers/bsp/uart/src/bsp_uart.o
+                0x0000000008000ec8       0x3c build/drivers/bsp/uart/src/bsp_uart.o
  .text.bsp_uart_unlock
-                0x0000000008000f78       0x2e build/drivers/bsp/uart/src/bsp_uart.o
+                0x0000000008000f04       0x2e build/drivers/bsp/uart/src/bsp_uart.o
  .text.bsp_uart_copy_to_ring
-                0x0000000008000fa6       0xb6 build/drivers/bsp/uart/src/bsp_uart.o
+                0x0000000008000f32       0xb6 build/drivers/bsp/uart/src/bsp_uart.o
  .text.bsp_uart_fill_dma_buffer
-                0x000000000800105c       0xca build/drivers/bsp/uart/src/bsp_uart.o
- *fill*         0x0000000008001126        0x2 
+                0x0000000008000fe8       0xca build/drivers/bsp/uart/src/bsp_uart.o
+ *fill*         0x00000000080010b2        0x2 
  .text.bsp_uart_start_tx_locked
-                0x0000000008001128       0x54 build/drivers/bsp/uart/src/bsp_uart.o
+                0x00000000080010b4       0x54 build/drivers/bsp/uart/src/bsp_uart.o
  .text.HAL_UART_MspInit
-                0x000000000800117c      0x134 build/drivers/bsp/uart/src/bsp_uart.o
-                0x000000000800117c                HAL_UART_MspInit
+                0x0000000008001108      0x134 build/drivers/bsp/uart/src/bsp_uart.o
+                0x0000000008001108                HAL_UART_MspInit
  .text.uart_init
-                0x00000000080012b0       0x9c build/drivers/bsp/uart/src/bsp_uart.o
-                0x00000000080012b0                uart_init
+                0x000000000800123c       0x9c build/drivers/bsp/uart/src/bsp_uart.o
+                0x000000000800123c                uart_init
  .text.uart_write
-                0x000000000800134c       0xb4 build/drivers/bsp/uart/src/bsp_uart.o
-                0x000000000800134c                uart_write
+                0x00000000080012d8       0xb4 build/drivers/bsp/uart/src/bsp_uart.o
+                0x00000000080012d8                uart_write
  .text.uart_write_string
-                0x0000000008001400       0x42 build/drivers/bsp/uart/src/bsp_uart.o
-                0x0000000008001400                uart_write_string
- *fill*         0x0000000008001442        0x2 
+                0x000000000800138c       0x42 build/drivers/bsp/uart/src/bsp_uart.o
+                0x000000000800138c                uart_write_string
+ *fill*         0x00000000080013ce        0x2 
  .text.uart_irq_handler
-                0x0000000008001444       0x3c build/drivers/bsp/uart/src/bsp_uart.o
-                0x0000000008001444                uart_irq_handler
+                0x00000000080013d0       0x3c build/drivers/bsp/uart/src/bsp_uart.o
+                0x00000000080013d0                uart_irq_handler
  .text.uart_dma_irq_handler
-                0x0000000008001480       0x40 build/drivers/bsp/uart/src/bsp_uart.o
-                0x0000000008001480                uart_dma_irq_handler
+                0x000000000800140c       0x40 build/drivers/bsp/uart/src/bsp_uart.o
+                0x000000000800140c                uart_dma_irq_handler
  .text.HAL_UART_TxCpltCallback
-                0x00000000080014c0       0x58 build/drivers/bsp/uart/src/bsp_uart.o
-                0x00000000080014c0                HAL_UART_TxCpltCallback
+                0x000000000800144c       0x58 build/drivers/bsp/uart/src/bsp_uart.o
+                0x000000000800144c                HAL_UART_TxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x0000000008001518       0x58 build/drivers/bsp/uart/src/bsp_uart.o
-                0x0000000008001518                HAL_UART_ErrorCallback
+                0x00000000080014a4       0x58 build/drivers/bsp/uart/src/bsp_uart.o
+                0x00000000080014a4                HAL_UART_ErrorCallback
  .text.board_clock_config_fallback
-                0x0000000008001570       0x62 build/platform/boards/stm32f103rct6_generic/src/board.o
+                0x00000000080014fc       0x62 build/platform/boards/stm32f103rct6_generic/src/board.o
  .text.board_clock_init
-                0x00000000080015d2       0x8a build/platform/boards/stm32f103rct6_generic/src/board.o
+                0x000000000800155e       0x8a build/platform/boards/stm32f103rct6_generic/src/board.o
  .text.board_init
-                0x000000000800165c       0x10 build/platform/boards/stm32f103rct6_generic/src/board.o
-                0x000000000800165c                board_init
+                0x00000000080015e8       0x10 build/platform/boards/stm32f103rct6_generic/src/board.o
+                0x00000000080015e8                board_init
  .text.board_fault_trap
-                0x000000000800166c        0xc build/platform/boards/stm32f103rct6_generic/src/board.o
-                0x000000000800166c                board_fault_trap
+                0x00000000080015f8        0xc build/platform/boards/stm32f103rct6_generic/src/board.o
+                0x00000000080015f8                board_fault_trap
  .text.board_irq_handle_nmi
-                0x0000000008001678        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x0000000008001678                board_irq_handle_nmi
+                0x0000000008001604        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001604                board_irq_handle_nmi
  .text.board_irq_handle_hardfault
-                0x0000000008001684        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x0000000008001684                board_irq_handle_hardfault
+                0x0000000008001610        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001610                board_irq_handle_hardfault
  .text.board_irq_handle_memmanage
-                0x0000000008001690        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x0000000008001690                board_irq_handle_memmanage
+                0x000000000800161c        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x000000000800161c                board_irq_handle_memmanage
  .text.board_irq_handle_busfault
-                0x000000000800169c        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x000000000800169c                board_irq_handle_busfault
+                0x0000000008001628        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001628                board_irq_handle_busfault
  .text.board_irq_handle_usagefault
-                0x00000000080016a8        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x00000000080016a8                board_irq_handle_usagefault
+                0x0000000008001634        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001634                board_irq_handle_usagefault
  .text.board_irq_handle_debugmon
-                0x00000000080016b4        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x00000000080016b4                board_irq_handle_debugmon
+                0x0000000008001640        0xc build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001640                board_irq_handle_debugmon
  .text.board_irq_handle_systick
-                0x00000000080016c0       0x1a build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x00000000080016c0                board_irq_handle_systick
+                0x000000000800164c       0x1a build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x000000000800164c                board_irq_handle_systick
  .text.board_irq_handle_usart1
-                0x00000000080016da        0xe build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x00000000080016da                board_irq_handle_usart1
+                0x0000000008001666        0xe build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001666                board_irq_handle_usart1
  .text.board_irq_handle_dma1_channel4
-                0x00000000080016e8        0xe build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x00000000080016e8                board_irq_handle_dma1_channel4
+                0x0000000008001674        0xe build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001674                board_irq_handle_dma1_channel4
  .text.board_irq_handle_exti0
-                0x00000000080016f6        0xe build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x00000000080016f6                board_irq_handle_exti0
+                0x0000000008001682        0xe build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001682                board_irq_handle_exti0
  .text.board_irq_handle_exti15_10
-                0x0000000008001704       0x10 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
-                0x0000000008001704                board_irq_handle_exti15_10
+                0x0000000008001690       0x10 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+                0x0000000008001690                board_irq_handle_exti15_10
  .text.NMI_Handler
-                0x0000000008001714        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001714                NMI_Handler
+                0x00000000080016a0        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016a0                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008001720        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001720                HardFault_Handler
+                0x00000000080016ac        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016ac                HardFault_Handler
  .text.MemManage_Handler
-                0x000000000800172c        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x000000000800172c                MemManage_Handler
+                0x00000000080016b8        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016b8                MemManage_Handler
  .text.BusFault_Handler
-                0x0000000008001738        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001738                BusFault_Handler
+                0x00000000080016c4        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016c4                BusFault_Handler
  .text.UsageFault_Handler
-                0x0000000008001744        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001744                UsageFault_Handler
+                0x00000000080016d0        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016d0                UsageFault_Handler
  .text.DebugMon_Handler
-                0x0000000008001750        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001750                DebugMon_Handler
+                0x00000000080016dc        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016dc                DebugMon_Handler
  .text.SysTick_Handler
-                0x000000000800175c        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x000000000800175c                SysTick_Handler
+                0x00000000080016e8        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016e8                SysTick_Handler
  .text.USART1_IRQHandler
-                0x0000000008001768        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001768                USART1_IRQHandler
+                0x00000000080016f4        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x00000000080016f4                USART1_IRQHandler
  .text.DMA1_Channel4_IRQHandler
-                0x0000000008001774        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001774                DMA1_Channel4_IRQHandler
+                0x0000000008001700        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x0000000008001700                DMA1_Channel4_IRQHandler
  .text.EXTI0_IRQHandler
-                0x0000000008001780        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x0000000008001780                EXTI0_IRQHandler
+                0x000000000800170c        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x000000000800170c                EXTI0_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x000000000800178c        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
-                0x000000000800178c                EXTI15_10_IRQHandler
+                0x0000000008001718        0xc build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+                0x0000000008001718                EXTI15_10_IRQHandler
  .text.SystemInit
-                0x0000000008001798       0x68 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
-                0x0000000008001798                SystemInit
+                0x0000000008001724       0x68 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
+                0x0000000008001724                SystemInit
  .text.HAL_Init
-                0x0000000008001800       0x2c build/platform/hal/stm32f1/src/stm32f1xx_hal.o
-                0x0000000008001800                HAL_Init
+                0x000000000800178c       0x2c build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+                0x000000000800178c                HAL_Init
  .text.HAL_MspInit
-                0x000000000800182c        0xc build/platform/hal/stm32f1/src/stm32f1xx_hal.o
-                0x000000000800182c                HAL_MspInit
+                0x00000000080017b8        0xc build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+                0x00000000080017b8                HAL_MspInit
  .text.HAL_InitTick
-                0x0000000008001838       0x60 build/platform/hal/stm32f1/src/stm32f1xx_hal.o
-                0x0000000008001838                HAL_InitTick
+                0x00000000080017c4       0x60 build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+                0x00000000080017c4                HAL_InitTick
  .text.HAL_IncTick
-                0x0000000008001898       0x24 build/platform/hal/stm32f1/src/stm32f1xx_hal.o
-                0x0000000008001898                HAL_IncTick
+                0x0000000008001824       0x24 build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+                0x0000000008001824                HAL_IncTick
  .text.HAL_GetTick
-                0x00000000080018bc       0x14 build/platform/hal/stm32f1/src/stm32f1xx_hal.o
-                0x00000000080018bc                HAL_GetTick
+                0x0000000008001848       0x14 build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+                0x0000000008001848                HAL_GetTick
  .text.__NVIC_SetPriorityGrouping
-                0x00000000080018d0       0x48 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x000000000800185c       0x48 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
  .text.__NVIC_GetPriorityGrouping
-                0x0000000008001918       0x1c build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x00000000080018a4       0x1c build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
  .text.__NVIC_EnableIRQ
-                0x0000000008001934       0x38 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x00000000080018c0       0x38 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
  .text.__NVIC_SetPriority
-                0x000000000800196c       0x54 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x00000000080018f8       0x54 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
  .text.NVIC_EncodePriority
-                0x00000000080019c0       0x64 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x000000000800194c       0x64 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
  .text.SysTick_Config
-                0x0000000008001a24       0x44 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x00000000080019b0       0x44 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0000000008001a68       0x16 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
-                0x0000000008001a68                HAL_NVIC_SetPriorityGrouping
+                0x00000000080019f4       0x16 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x00000000080019f4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000008001a7e       0x38 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
-                0x0000000008001a7e                HAL_NVIC_SetPriority
+                0x0000000008001a0a       0x38 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x0000000008001a0a                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008001ab6       0x1c build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
-                0x0000000008001ab6                HAL_NVIC_EnableIRQ
+                0x0000000008001a42       0x1c build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x0000000008001a42                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008001ad2       0x18 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
-                0x0000000008001ad2                HAL_SYSTICK_Config
- *fill*         0x0000000008001aea        0x2 
+                0x0000000008001a5e       0x18 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+                0x0000000008001a5e                HAL_SYSTICK_Config
+ *fill*         0x0000000008001a76        0x2 
  .text.HAL_DMA_Init
-                0x0000000008001aec       0xec build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
-                0x0000000008001aec                HAL_DMA_Init
+                0x0000000008001a78       0xec build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+                0x0000000008001a78                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x0000000008001bd8       0xbe build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
-                0x0000000008001bd8                HAL_DMA_Start_IT
- *fill*         0x0000000008001c96        0x2 
+                0x0000000008001b64       0xbe build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+                0x0000000008001b64                HAL_DMA_Start_IT
+ *fill*         0x0000000008001c22        0x2 
  .text.HAL_DMA_Abort_IT
-                0x0000000008001c98      0x210 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
-                0x0000000008001c98                HAL_DMA_Abort_IT
+                0x0000000008001c24      0x210 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+                0x0000000008001c24                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x0000000008001ea8      0x478 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
-                0x0000000008001ea8                HAL_DMA_IRQHandler
+                0x0000000008001e34      0x478 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+                0x0000000008001e34                HAL_DMA_IRQHandler
  .text.DMA_SetConfig
-                0x0000000008002320       0x5a build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
- *fill*         0x000000000800237a        0x2 
+                0x00000000080022ac       0x5a build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+ *fill*         0x0000000008002306        0x2 
  .text.HAL_GPIO_Init
-                0x000000000800237c      0x328 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
-                0x000000000800237c                HAL_GPIO_Init
+                0x0000000008002308      0x328 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
+                0x0000000008002308                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x00000000080026a4       0x2e build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
-                0x00000000080026a4                HAL_GPIO_ReadPin
+                0x0000000008002630       0x2e build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
+                0x0000000008002630                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x00000000080026d2       0x30 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
-                0x00000000080026d2                HAL_GPIO_WritePin
- *fill*         0x0000000008002702        0x2 
+                0x000000000800265e       0x30 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
+                0x000000000800265e                HAL_GPIO_WritePin
+ *fill*         0x000000000800268e        0x2 
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x0000000008002704       0x30 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
-                0x0000000008002704                HAL_GPIO_EXTI_IRQHandler
+                0x0000000008002690       0x30 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
+                0x0000000008002690                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_RCC_OscConfig
-                0x0000000008002734      0x504 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
-                0x0000000008002734                HAL_RCC_OscConfig
+                0x00000000080026c0      0x504 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+                0x00000000080026c0                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x0000000008002c38      0x1d4 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
-                0x0000000008002c38                HAL_RCC_ClockConfig
+                0x0000000008002bc4      0x1d4 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+                0x0000000008002bc4                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008002e0c       0xbc build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
-                0x0000000008002e0c                HAL_RCC_GetSysClockFreq
+                0x0000000008002d98       0xbc build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+                0x0000000008002d98                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008002ec8       0x14 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
-                0x0000000008002ec8                HAL_RCC_GetHCLKFreq
+                0x0000000008002e54       0x14 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+                0x0000000008002e54                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008002edc       0x28 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
-                0x0000000008002edc                HAL_RCC_GetPCLK1Freq
+                0x0000000008002e68       0x28 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+                0x0000000008002e68                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008002f04       0x28 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
-                0x0000000008002f04                HAL_RCC_GetPCLK2Freq
+                0x0000000008002e90       0x28 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+                0x0000000008002e90                HAL_RCC_GetPCLK2Freq
  .text.RCC_Delay
-                0x0000000008002f2c       0x3c build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+                0x0000000008002eb8       0x3c build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
  .text.HAL_UART_Init
-                0x0000000008002f68       0x9a build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
-                0x0000000008002f68                HAL_UART_Init
- *fill*         0x0000000008003002        0x2 
+                0x0000000008002ef4       0x9a build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x0000000008002ef4                HAL_UART_Init
+ *fill*         0x0000000008002f8e        0x2 
  .text.HAL_UART_Transmit_DMA
-                0x0000000008003004       0xd8 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
-                0x0000000008003004                HAL_UART_Transmit_DMA
+                0x0000000008002f90       0xd8 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x0000000008002f90                HAL_UART_Transmit_DMA
  .text.HAL_UART_IRQHandler
-                0x00000000080030dc      0x1f4 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
-                0x00000000080030dc                HAL_UART_IRQHandler
+                0x0000000008003068      0x1f4 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x0000000008003068                HAL_UART_IRQHandler
  .text.HAL_UART_TxHalfCpltCallback
-                0x00000000080032d0       0x12 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
-                0x00000000080032d0                HAL_UART_TxHalfCpltCallback
+                0x000000000800325c       0x12 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x000000000800325c                HAL_UART_TxHalfCpltCallback
  .text.HAL_UART_RxCpltCallback
-                0x00000000080032e2       0x12 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
-                0x00000000080032e2                HAL_UART_RxCpltCallback
+                0x000000000800326e       0x12 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x000000000800326e                HAL_UART_RxCpltCallback
  .text.UART_DMATransmitCplt
-                0x00000000080032f4       0x52 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x0000000008003280       0x52 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_DMATxHalfCplt
-                0x0000000008003346       0x1c build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x00000000080032d2       0x1c build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_DMAError
-                0x0000000008003362       0x94 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x00000000080032ee       0x94 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_EndTxTransfer
-                0x00000000080033f6       0x2a build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x0000000008003382       0x2a build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_EndRxTransfer
-                0x0000000008003420       0x3a build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x00000000080033ac       0x3a build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_DMAAbortOnError
-                0x000000000800345a       0x28 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x00000000080033e6       0x28 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_Transmit_IT
-                0x0000000008003482       0xaa build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x000000000800340e       0xaa build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_EndTransmit_IT
-                0x000000000800352c       0x30 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x00000000080034b8       0x30 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.UART_Receive_IT
-                0x000000000800355c      0x102 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
- *fill*         0x000000000800365e        0x2 
+                0x00000000080034e8      0x102 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+ *fill*         0x00000000080035ea        0x2 
  .text.UART_SetConfig
-                0x0000000008003660      0x1b4 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+                0x00000000080035ec      0x1b4 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
  .text.vApplicationMallocFailedHook
-                0x0000000008003814       0x1c build/rtos/wrappers/src/rtos_hooks.o
-                0x0000000008003814                vApplicationMallocFailedHook
+                0x00000000080037a0       0x1c build/rtos/wrappers/src/rtos_hooks.o
+                0x00000000080037a0                vApplicationMallocFailedHook
  .text.vApplicationStackOverflowHook
-                0x0000000008003830       0x20 build/rtos/wrappers/src/rtos_hooks.o
-                0x0000000008003830                vApplicationStackOverflowHook
+                0x00000000080037bc       0x20 build/rtos/wrappers/src/rtos_hooks.o
+                0x00000000080037bc                vApplicationStackOverflowHook
  .text.vListInitialise
-                0x0000000008003850       0x3e build/third_party/freertos/FreeRTOS-Kernel-main/list.o
-                0x0000000008003850                vListInitialise
+                0x00000000080037dc       0x3e build/third_party/freertos/FreeRTOS-Kernel-main/list.o
+                0x00000000080037dc                vListInitialise
  .text.vListInitialiseItem
-                0x000000000800388e       0x18 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
-                0x000000000800388e                vListInitialiseItem
+                0x000000000800381a       0x18 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
+                0x000000000800381a                vListInitialiseItem
  .text.vListInsert
-                0x00000000080038a6       0x70 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
-                0x00000000080038a6                vListInsert
+                0x0000000008003832       0x70 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
+                0x0000000008003832                vListInsert
  .text.uxListRemove
-                0x0000000008003916       0x52 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
-                0x0000000008003916                uxListRemove
+                0x00000000080038a2       0x52 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
+                0x00000000080038a2                uxListRemove
  .text.xQueueGenericReset
-                0x0000000008003968      0x100 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
-                0x0000000008003968                xQueueGenericReset
+                0x00000000080038f4      0x100 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x00000000080038f4                xQueueGenericReset
  .text.xQueueGenericCreate
-                0x0000000008003a68       0x8c build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
-                0x0000000008003a68                xQueueGenericCreate
+                0x00000000080039f4       0x8c build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x00000000080039f4                xQueueGenericCreate
  .text.prvInitialiseNewQueue
-                0x0000000008003af4       0x3e build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x0000000008003a80       0x3e build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.prvInitialiseMutex
-                0x0000000008003b32       0x34 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x0000000008003abe       0x34 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.xQueueCreateMutex
-                0x0000000008003b66       0x30 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
-                0x0000000008003b66                xQueueCreateMutex
- *fill*         0x0000000008003b96        0x2 
+                0x0000000008003af2       0x30 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x0000000008003af2                xQueueCreateMutex
+ *fill*         0x0000000008003b22        0x2 
  .text.xQueueGenericSend
-                0x0000000008003b98      0x1bc build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
-                0x0000000008003b98                xQueueGenericSend
+                0x0000000008003b24      0x1bc build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x0000000008003b24                xQueueGenericSend
  .text.xQueueReceive
-                0x0000000008003d54      0x190 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
-                0x0000000008003d54                xQueueReceive
+                0x0000000008003ce0      0x190 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x0000000008003ce0                xQueueReceive
  .text.xQueueSemaphoreTake
-                0x0000000008003ee4      0x1cc build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
-                0x0000000008003ee4                xQueueSemaphoreTake
+                0x0000000008003e70      0x1cc build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x0000000008003e70                xQueueSemaphoreTake
  .text.prvGetHighestPriorityOfWaitToReceiveList
-                0x00000000080040b0       0x2e build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x000000000800403c       0x2e build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.prvCopyDataToQueue
-                0x00000000080040de       0xd4 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x000000000800406a       0xd4 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.prvCopyDataFromQueue
-                0x00000000080041b2       0x4c build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x000000000800413e       0x4c build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.prvUnlockQueue
-                0x00000000080041fe       0xa4 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x000000000800418a       0xa4 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.prvIsQueueEmpty
-                0x00000000080042a2       0x2c build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x000000000800422e       0x2c build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.prvIsQueueFull
-                0x00000000080042ce       0x30 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x000000000800425a       0x30 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
  .text.vQueueWaitForMessageRestricted
-                0x00000000080042fe       0x68 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
-                0x00000000080042fe                vQueueWaitForMessageRestricted
+                0x000000000800428a       0x68 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+                0x000000000800428a                vQueueWaitForMessageRestricted
  .text.prvCreateTask
-                0x0000000008004366       0x7a build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080042f2       0x7a build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.xTaskCreate
-                0x00000000080043e0       0x48 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x00000000080043e0                xTaskCreate
+                0x000000000800436c       0x48 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x000000000800436c                xTaskCreate
  .text.prvInitialiseNewTask
-                0x0000000008004428      0x116 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
- *fill*         0x000000000800453e        0x2 
+                0x00000000080043b4      0x116 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+ *fill*         0x00000000080044ca        0x2 
  .text.prvAddNewTaskToReadyList
-                0x0000000008004540      0x128 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080044cc      0x128 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.vTaskDelay
-                0x0000000008004668       0x58 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004668                vTaskDelay
+                0x00000000080045f4       0x58 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080045f4                vTaskDelay
  .text.prvCreateIdleTasks
-                0x00000000080046c0       0xac build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x000000000800464c       0xac build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.vTaskStartScheduler
-                0x000000000800476c       0x78 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x000000000800476c                vTaskStartScheduler
+                0x00000000080046f8       0x78 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080046f8                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x00000000080047e4       0x1c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x00000000080047e4                vTaskSuspendAll
+                0x0000000008004770       0x1c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004770                vTaskSuspendAll
  .text.xTaskResumeAll
-                0x0000000008004800      0x200 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004800                xTaskResumeAll
+                0x000000000800478c      0x200 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x000000000800478c                xTaskResumeAll
  .text.xTaskGetTickCount
-                0x0000000008004a00       0x1c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004a00                xTaskGetTickCount
+                0x000000000800498c       0x1c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x000000000800498c                xTaskGetTickCount
  .text.xTaskIncrementTick
-                0x0000000008004a1c      0x220 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004a1c                xTaskIncrementTick
+                0x00000000080049a8      0x220 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080049a8                xTaskIncrementTick
  .text.vTaskSwitchContext
-                0x0000000008004c3c      0x104 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004c3c                vTaskSwitchContext
+                0x0000000008004bc8      0x104 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004bc8                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x0000000008004d40       0x38 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004d40                vTaskPlaceOnEventList
+                0x0000000008004ccc       0x38 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004ccc                vTaskPlaceOnEventList
  .text.vTaskPlaceOnEventListRestricted
-                0x0000000008004d78       0x7c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004d78                vTaskPlaceOnEventListRestricted
+                0x0000000008004d04       0x7c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004d04                vTaskPlaceOnEventListRestricted
  .text.xTaskRemoveFromEventList
-                0x0000000008004df4      0x1a0 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004df4                xTaskRemoveFromEventList
+                0x0000000008004d80      0x1a0 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004d80                xTaskRemoveFromEventList
  .text.vTaskInternalSetTimeOutState
-                0x0000000008004f94       0x2c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004f94                vTaskInternalSetTimeOutState
+                0x0000000008004f20       0x2c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004f20                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x0000000008004fc0       0x9c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008004fc0                xTaskCheckForTimeOut
+                0x0000000008004f4c       0x9c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004f4c                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x000000000800505c       0x18 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x000000000800505c                vTaskMissedYield
+                0x0000000008004fe8       0x18 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008004fe8                vTaskMissedYield
  .text.prvIdleTask
-                0x0000000008005074       0x30 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005000       0x30 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.prvInitialiseTaskLists
-                0x00000000080050a4       0x74 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005030       0x74 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.prvCheckTasksWaitingTermination
-                0x0000000008005118       0x5c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080050a4       0x5c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.prvDeleteTCB
-                0x0000000008005174       0x20 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005100       0x20 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.prvResetNextTaskUnblockTime
-                0x0000000008005194       0x34 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005120       0x34 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.xTaskGetCurrentTaskHandle
-                0x00000000080051c8       0x1c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x00000000080051c8                xTaskGetCurrentTaskHandle
+                0x0000000008005154       0x1c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005154                xTaskGetCurrentTaskHandle
  .text.xTaskGetSchedulerState
-                0x00000000080051e4       0x3c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x00000000080051e4                xTaskGetSchedulerState
+                0x0000000008005170       0x3c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005170                xTaskGetSchedulerState
  .text.xTaskPriorityInherit
-                0x0000000008005220      0x140 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008005220                xTaskPriorityInherit
+                0x00000000080051ac      0x140 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080051ac                xTaskPriorityInherit
  .text.xTaskPriorityDisinherit
-                0x0000000008005360      0x128 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008005360                xTaskPriorityDisinherit
+                0x00000000080052ec      0x128 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x00000000080052ec                xTaskPriorityDisinherit
  .text.vTaskPriorityDisinheritAfterTimeout
-                0x0000000008005488      0x150 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008005488                vTaskPriorityDisinheritAfterTimeout
+                0x0000000008005414      0x150 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005414                vTaskPriorityDisinheritAfterTimeout
  .text.pvTaskIncrementMutexHeldCount
-                0x00000000080055d8       0x2c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x00000000080055d8                pvTaskIncrementMutexHeldCount
+                0x0000000008005564       0x2c build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005564                pvTaskIncrementMutexHeldCount
  .text.ulTaskGenericNotifyTake
-                0x0000000008005604       0xfc build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008005604                ulTaskGenericNotifyTake
+                0x0000000008005590       0xfc build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005590                ulTaskGenericNotifyTake
  .text.vTaskGenericNotifyGiveFromISR
-                0x0000000008005700      0x1e4 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
-                0x0000000008005700                vTaskGenericNotifyGiveFromISR
+                0x000000000800568c      0x1e4 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x000000000800568c                vTaskGenericNotifyGiveFromISR
  .text.prvAddCurrentTaskToDelayedList
-                0x00000000080058e4       0xac build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+                0x0000000008005870       0xac build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  .text.xTimerCreateTimerTask
-                0x0000000008005990       0x54 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
-                0x0000000008005990                xTimerCreateTimerTask
+                0x000000000800591c       0x54 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x000000000800591c                xTimerCreateTimerTask
  .text.xTimerCreate
-                0x00000000080059e4       0x42 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
-                0x00000000080059e4                xTimerCreate
+                0x0000000008005970       0x42 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005970                xTimerCreate
  .text.prvInitialiseNewTimer
-                0x0000000008005a26       0x60 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
- *fill*         0x0000000008005a86        0x2 
+                0x00000000080059b2       0x60 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+ *fill*         0x0000000008005a12        0x2 
  .text.xTimerGenericCommandFromTask
-                0x0000000008005a88       0x7c build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
-                0x0000000008005a88                xTimerGenericCommandFromTask
+                0x0000000008005a14       0x7c build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005a14                xTimerGenericCommandFromTask
  .text.prvReloadTimer
-                0x0000000008005b04       0x42 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
- *fill*         0x0000000008005b46        0x2 
+                0x0000000008005a90       0x42 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+ *fill*         0x0000000008005ad2        0x2 
  .text.prvProcessExpiredTimer
-                0x0000000008005b48       0x60 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005ad4       0x60 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvTimerTask
-                0x0000000008005ba8       0x24 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005b34       0x24 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvProcessTimerOrBlockTask
-                0x0000000008005bcc       0x9c build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005b58       0x9c build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvGetNextExpireTime
-                0x0000000008005c68       0x44 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005bf4       0x44 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvSampleTimeNow
-                0x0000000008005cac       0x40 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005c38       0x40 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvInsertTimerInActiveList
-                0x0000000008005cec       0x84 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005c78       0x84 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvProcessReceivedCommands
-                0x0000000008005d70      0x1ac build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005cfc      0x1ac build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvSwitchTimerLists
-                0x0000000008005f1c       0x4c build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005ea8       0x4c build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.prvCheckForValidListAndQueue
-                0x0000000008005f68       0x54 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+                0x0000000008005ef4       0x54 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  .text.pxPortInitialiseStack
-                0x0000000008005fbc       0x58 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x0000000008005fbc                pxPortInitialiseStack
+                0x0000000008005f48       0x58 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008005f48                pxPortInitialiseStack
  .text.prvTaskExitError
-                0x0000000008006014       0x48 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008005fa0       0x48 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
  .text.SVC_Handler
-                0x000000000800605c       0x28 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x000000000800605c                SVC_Handler
+                0x0000000008005fe8       0x28 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008005fe8                SVC_Handler
  .text.prvPortStartFirstTask
-                0x0000000008006084       0x24 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008006010       0x24 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
  .text.xPortStartScheduler
-                0x00000000080060a8      0x134 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x00000000080060a8                xPortStartScheduler
+                0x0000000008006034      0x134 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008006034                xPortStartScheduler
  .text.vPortEnterCritical
-                0x00000000080061dc       0x50 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x00000000080061dc                vPortEnterCritical
+                0x0000000008006168       0x50 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008006168                vPortEnterCritical
  .text.vPortExitCritical
-                0x000000000800622c       0x40 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x000000000800622c                vPortExitCritical
+                0x00000000080061b8       0x40 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x00000000080061b8                vPortExitCritical
  .text.PendSV_Handler
-                0x000000000800626c       0x48 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x000000000800626c                PendSV_Handler
+                0x00000000080061f8       0x48 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x00000000080061f8                PendSV_Handler
  .text.xPortSysTickHandler
-                0x00000000080062b4       0x44 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x00000000080062b4                xPortSysTickHandler
+                0x0000000008006240       0x44 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008006240                xPortSysTickHandler
  .text.vPortSetupTimerInterrupt
-                0x00000000080062f8       0x44 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x00000000080062f8                vPortSetupTimerInterrupt
+                0x0000000008006284       0x44 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x0000000008006284                vPortSetupTimerInterrupt
  .text.vPortValidateInterruptPriority
-                0x000000000800633c       0x5c build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
-                0x000000000800633c                vPortValidateInterruptPriority
+                0x00000000080062c8       0x5c build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+                0x00000000080062c8                vPortValidateInterruptPriority
  .text.pvPortMalloc
-                0x0000000008006398      0x20c build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
-                0x0000000008006398                pvPortMalloc
+                0x0000000008006324      0x20c build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
+                0x0000000008006324                pvPortMalloc
  .text.vPortFree
-                0x00000000080065a4       0xc0 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
-                0x00000000080065a4                vPortFree
+                0x0000000008006530       0xc0 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
+                0x0000000008006530                vPortFree
  .text.prvHeapInit
-                0x0000000008006664       0xb4 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
+                0x00000000080065f0       0xb4 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
  .text.prvInsertBlockIntoFreeList
-                0x0000000008006718       0xe0 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
+                0x00000000080066a4       0xe0 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
  .text.Reset_Handler
-                0x00000000080067f8       0x48 build/platform/startup/stm32f103rct6/startup_stm32f103xe.o
-                0x00000000080067f8                Reset_Handler
+                0x0000000008006784       0x48 build/platform/startup/stm32f103rct6/startup_stm32f103xe.o
+                0x0000000008006784                Reset_Handler
  .text.Default_Handler
-                0x0000000008006840        0x2 build/platform/startup/stm32f103rct6/startup_stm32f103xe.o
-                0x0000000008006840                DMA2_Channel3_IRQHandler
-                0x0000000008006840                EXTI2_IRQHandler
-                0x0000000008006840                TIM8_TRG_COM_IRQHandler
-                0x0000000008006840                TIM8_CC_IRQHandler
-                0x0000000008006840                TIM1_CC_IRQHandler
-                0x0000000008006840                TIM6_IRQHandler
-                0x0000000008006840                PVD_IRQHandler
-                0x0000000008006840                SDIO_IRQHandler
-                0x0000000008006840                EXTI3_IRQHandler
-                0x0000000008006840                I2C2_EV_IRQHandler
-                0x0000000008006840                ADC1_2_IRQHandler
-                0x0000000008006840                SPI1_IRQHandler
-                0x0000000008006840                TAMPER_IRQHandler
-                0x0000000008006840                TIM8_UP_IRQHandler
-                0x0000000008006840                DMA2_Channel2_IRQHandler
-                0x0000000008006840                USART3_IRQHandler
-                0x0000000008006840                RTC_IRQHandler
-                0x0000000008006840                DMA1_Channel7_IRQHandler
-                0x0000000008006840                CAN1_RX1_IRQHandler
-                0x0000000008006840                UART5_IRQHandler
-                0x0000000008006840                ADC3_IRQHandler
-                0x0000000008006840                TIM4_IRQHandler
-                0x0000000008006840                DMA2_Channel1_IRQHandler
-                0x0000000008006840                I2C1_EV_IRQHandler
-                0x0000000008006840                DMA1_Channel6_IRQHandler
-                0x0000000008006840                UART4_IRQHandler
-                0x0000000008006840                TIM3_IRQHandler
-                0x0000000008006840                RCC_IRQHandler
-                0x0000000008006840                TIM1_TRG_COM_IRQHandler
-                0x0000000008006840                DMA1_Channel1_IRQHandler
-                0x0000000008006840                Default_Handler
-                0x0000000008006840                TIM7_IRQHandler
-                0x0000000008006840                TIM5_IRQHandler
-                0x0000000008006840                EXTI9_5_IRQHandler
-                0x0000000008006840                SPI2_IRQHandler
-                0x0000000008006840                DMA1_Channel5_IRQHandler
-                0x0000000008006840                EXTI4_IRQHandler
-                0x0000000008006840                USB_LP_CAN1_RX0_IRQHandler
-                0x0000000008006840                USB_HP_CAN1_TX_IRQHandler
-                0x0000000008006840                DMA1_Channel3_IRQHandler
-                0x0000000008006840                FSMC_IRQHandler
-                0x0000000008006840                TIM1_UP_IRQHandler
-                0x0000000008006840                WWDG_IRQHandler
-                0x0000000008006840                TIM2_IRQHandler
-                0x0000000008006840                TIM1_BRK_IRQHandler
-                0x0000000008006840                EXTI1_IRQHandler
-                0x0000000008006840                DMA2_Channel4_5_IRQHandler
-                0x0000000008006840                USART2_IRQHandler
-                0x0000000008006840                I2C2_ER_IRQHandler
-                0x0000000008006840                DMA1_Channel2_IRQHandler
-                0x0000000008006840                TIM8_BRK_IRQHandler
-                0x0000000008006840                CAN1_SCE_IRQHandler
-                0x0000000008006840                FLASH_IRQHandler
-                0x0000000008006840                SPI3_IRQHandler
-                0x0000000008006840                I2C1_ER_IRQHandler
-                0x0000000008006840                USBWakeUp_IRQHandler
-                0x0000000008006840                RTC_Alarm_IRQHandler
- *fill*         0x0000000008006842        0x2 
+                0x00000000080067cc        0x2 build/platform/startup/stm32f103rct6/startup_stm32f103xe.o
+                0x00000000080067cc                DMA2_Channel3_IRQHandler
+                0x00000000080067cc                EXTI2_IRQHandler
+                0x00000000080067cc                TIM8_TRG_COM_IRQHandler
+                0x00000000080067cc                TIM8_CC_IRQHandler
+                0x00000000080067cc                TIM1_CC_IRQHandler
+                0x00000000080067cc                TIM6_IRQHandler
+                0x00000000080067cc                PVD_IRQHandler
+                0x00000000080067cc                SDIO_IRQHandler
+                0x00000000080067cc                EXTI3_IRQHandler
+                0x00000000080067cc                I2C2_EV_IRQHandler
+                0x00000000080067cc                ADC1_2_IRQHandler
+                0x00000000080067cc                SPI1_IRQHandler
+                0x00000000080067cc                TAMPER_IRQHandler
+                0x00000000080067cc                TIM8_UP_IRQHandler
+                0x00000000080067cc                DMA2_Channel2_IRQHandler
+                0x00000000080067cc                USART3_IRQHandler
+                0x00000000080067cc                RTC_IRQHandler
+                0x00000000080067cc                DMA1_Channel7_IRQHandler
+                0x00000000080067cc                CAN1_RX1_IRQHandler
+                0x00000000080067cc                UART5_IRQHandler
+                0x00000000080067cc                ADC3_IRQHandler
+                0x00000000080067cc                TIM4_IRQHandler
+                0x00000000080067cc                DMA2_Channel1_IRQHandler
+                0x00000000080067cc                I2C1_EV_IRQHandler
+                0x00000000080067cc                DMA1_Channel6_IRQHandler
+                0x00000000080067cc                UART4_IRQHandler
+                0x00000000080067cc                TIM3_IRQHandler
+                0x00000000080067cc                RCC_IRQHandler
+                0x00000000080067cc                TIM1_TRG_COM_IRQHandler
+                0x00000000080067cc                DMA1_Channel1_IRQHandler
+                0x00000000080067cc                Default_Handler
+                0x00000000080067cc                TIM7_IRQHandler
+                0x00000000080067cc                TIM5_IRQHandler
+                0x00000000080067cc                EXTI9_5_IRQHandler
+                0x00000000080067cc                SPI2_IRQHandler
+                0x00000000080067cc                DMA1_Channel5_IRQHandler
+                0x00000000080067cc                EXTI4_IRQHandler
+                0x00000000080067cc                USB_LP_CAN1_RX0_IRQHandler
+                0x00000000080067cc                USB_HP_CAN1_TX_IRQHandler
+                0x00000000080067cc                DMA1_Channel3_IRQHandler
+                0x00000000080067cc                FSMC_IRQHandler
+                0x00000000080067cc                TIM1_UP_IRQHandler
+                0x00000000080067cc                WWDG_IRQHandler
+                0x00000000080067cc                TIM2_IRQHandler
+                0x00000000080067cc                TIM1_BRK_IRQHandler
+                0x00000000080067cc                EXTI1_IRQHandler
+                0x00000000080067cc                DMA2_Channel4_5_IRQHandler
+                0x00000000080067cc                USART2_IRQHandler
+                0x00000000080067cc                I2C2_ER_IRQHandler
+                0x00000000080067cc                DMA1_Channel2_IRQHandler
+                0x00000000080067cc                TIM8_BRK_IRQHandler
+                0x00000000080067cc                CAN1_SCE_IRQHandler
+                0x00000000080067cc                FLASH_IRQHandler
+                0x00000000080067cc                SPI3_IRQHandler
+                0x00000000080067cc                I2C1_ER_IRQHandler
+                0x00000000080067cc                USBWakeUp_IRQHandler
+                0x00000000080067cc                RTC_Alarm_IRQHandler
+ *fill*         0x00000000080067ce        0x2 
  .text.__libc_init_array
-                0x0000000008006844       0x48 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
-                0x0000000008006844                __libc_init_array
- .text.memcpy   0x000000000800688c       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000000800688c                memcpy
- .text.memset   0x00000000080068a8       0x10 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
-                0x00000000080068a8                memset
+                0x00000000080067d0       0x48 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                0x00000000080067d0                __libc_init_array
+ .text.memcpy   0x0000000008006818       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008006818                memcpy
+ .text.memset   0x0000000008006834       0x10 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x0000000008006834                memset
  .text.snprintf
-                0x00000000080068b8       0x68 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
-                0x00000000080068b8                snprintf
-                0x00000000080068b8                sniprintf
+                0x0000000008006844       0x68 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
+                0x0000000008006844                snprintf
+                0x0000000008006844                sniprintf
  .text._vsnprintf_r
-                0x0000000008006920       0x56 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-vsnprintf.o)
-                0x0000000008006920                _vsnprintf_r
-                0x0000000008006920                _vsniprintf_r
- *fill*         0x0000000008006976        0x2 
+                0x00000000080068ac       0x56 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-vsnprintf.o)
+                0x00000000080068ac                _vsnprintf_r
+                0x00000000080068ac                _vsniprintf_r
+ *fill*         0x0000000008006902        0x2 
  .text.vsnprintf
-                0x0000000008006978       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-vsnprintf.o)
-                0x0000000008006978                vsnprintf
-                0x0000000008006978                vsniprintf
+                0x0000000008006904       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-vsnprintf.o)
+                0x0000000008006904                vsnprintf
+                0x0000000008006904                vsniprintf
  .text.__ssputs_r
-                0x0000000008006994       0xb6 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008006994                __ssputs_r
- *fill*         0x0000000008006a4a        0x2 
+                0x0000000008006920       0xb6 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008006920                __ssputs_r
+ *fill*         0x00000000080069d6        0x2 
  .text._svfprintf_r
-                0x0000000008006a4c      0x200 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008006a4c                _svfprintf_r
-                0x0000000008006a4c                _svfiprintf_r
+                0x00000000080069d8      0x200 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000080069d8                _svfprintf_r
+                0x00000000080069d8                _svfiprintf_r
  .text._printf_common
-                0x0000000008006c4c       0xde /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008006c4c                _printf_common
- *fill*         0x0000000008006d2a        0x2 
+                0x0000000008006bd8       0xde /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008006bd8                _printf_common
+ *fill*         0x0000000008006cb6        0x2 
  .text._printf_i
-                0x0000000008006d2c      0x24c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008006d2c                _printf_i
- .text.memchr   0x0000000008006f78       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
-                0x0000000008006f78                memchr
- .text.memmove  0x0000000008006f94       0x34 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
-                0x0000000008006f94                memmove
- .text._free_r  0x0000000008006fc8       0x90 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
-                0x0000000008006fc8                _free_r
+                0x0000000008006cb8      0x24c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008006cb8                _printf_i
+ .text.memchr   0x0000000008006f04       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+                0x0000000008006f04                memchr
+ .text.memmove  0x0000000008006f20       0x34 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
+                0x0000000008006f20                memmove
+ .text._free_r  0x0000000008006f54       0x90 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000008006f54                _free_r
  .text.sbrk_aligned
-                0x0000000008007058       0x40 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008006fe4       0x40 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x0000000008007098       0xe8 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008007098                _malloc_r
+                0x0000000008007024       0xe8 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008007024                _malloc_r
  .text._realloc_r
-                0x0000000008007180       0x5e /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
-                0x0000000008007180                _realloc_r
- *fill*         0x00000000080071de        0x2 
- .text._sbrk_r  0x00000000080071e0       0x20 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
-                0x00000000080071e0                _sbrk_r
+                0x000000000800710c       0x5e /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
+                0x000000000800710c                _realloc_r
+ *fill*         0x000000000800716a        0x2 
+ .text._sbrk_r  0x000000000800716c       0x20 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
+                0x000000000800716c                _sbrk_r
  .text.__malloc_lock
-                0x0000000008007200        0xc /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x0000000008007200                __malloc_lock
+                0x000000000800718c        0xc /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x000000000800718c                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800720c        0xc /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x000000000800720c                __malloc_unlock
+                0x0000000008007198        0xc /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000008007198                __malloc_unlock
  .text._malloc_usable_size_r
-                0x0000000008007218       0x10 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
-                0x0000000008007218                _malloc_usable_size_r
+                0x00000000080071a4       0x10 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
+                0x00000000080071a4                _malloc_usable_size_r
  .text.__retarget_lock_acquire_recursive
-                0x0000000008007228        0x2 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x0000000008007228                __retarget_lock_acquire_recursive
+                0x00000000080071b4        0x2 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x00000000080071b4                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800722a        0x2 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x000000000800722a                __retarget_lock_release_recursive
- .text._sbrk    0x000000000800722c       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
-                0x000000000800722c                _sbrk
+                0x00000000080071b6        0x2 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x00000000080071b6                __retarget_lock_release_recursive
+ .text._sbrk    0x00000000080071b8       0x1c /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+                0x00000000080071b8                _sbrk
  *(.glue_7)
- .glue_7        0x0000000008007248        0x0 linker stubs
+ .glue_7        0x00000000080071d4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008007248        0x0 linker stubs
+ .glue_7t       0x00000000080071d4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008007248        0x0 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x00000000080071d4        0x0 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x0000000008007248        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008007248                _init
- .init          0x000000000800724c        0x8 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x00000000080071d4        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080071d4                _init
+ .init          0x00000000080071d8        0x8 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008007254        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008007254                _fini
- .fini          0x0000000008007258        0x8 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x0000000008007260                . = ALIGN (0x4)
-                0x0000000008007260                _etext = .
+ .fini          0x00000000080071e0        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080071e0                _fini
+ .fini          0x00000000080071e4        0x8 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000000080071ec                . = ALIGN (0x4)
+                0x00000000080071ec                _etext = .
 
-.vfp11_veneer   0x0000000008007260        0x0
- .vfp11_veneer  0x0000000008007260        0x0 linker stubs
+.vfp11_veneer   0x00000000080071ec        0x0
+ .vfp11_veneer  0x00000000080071ec        0x0 linker stubs
 
-.v4_bx          0x0000000008007260        0x0
- .v4_bx         0x0000000008007260        0x0 linker stubs
+.v4_bx          0x00000000080071ec        0x0
+ .v4_bx         0x00000000080071ec        0x0 linker stubs
 
-.iplt           0x0000000008007260        0x0
- .iplt          0x0000000008007260        0x0 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x00000000080071ec        0x0
+ .iplt          0x00000000080071ec        0x0 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x0000000008007260      0x214
-                0x0000000008007260                . = ALIGN (0x4)
+.rodata         0x00000000080071ec      0x214
+                0x00000000080071ec                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008007260       0x26 build/app/src/app_event.o
- *fill*         0x0000000008007286        0x2 
- .rodata        0x0000000008007288       0x30 build/app/src/app_key.o
- .rodata        0x00000000080072b8       0x25 build/app/src/app_key_demo.o
- *fill*         0x00000000080072dd        0x3 
- .rodata        0x00000000080072e0       0x31 build/app/src/app_led_demo.o
- *fill*         0x0000000008007311        0x3 
- .rodata        0x0000000008007314       0x31 build/app/src/app_service.o
- *fill*         0x0000000008007345        0x3 
- .rodata        0x0000000008007348        0x7 build/app/src/app_timer.o
- *fill*         0x000000000800734f        0x1 
- .rodata        0x0000000008007350       0x21 build/app/src/app_task.o
+ .rodata        0x00000000080071ec       0x26 build/app/src/app_event.o
+ *fill*         0x0000000008007212        0x2 
+ .rodata        0x0000000008007214       0x30 build/app/src/app_key.o
+ .rodata        0x0000000008007244       0x25 build/app/src/app_key_demo.o
+ *fill*         0x0000000008007269        0x3 
+ .rodata        0x000000000800726c       0x31 build/app/src/app_led_demo.o
+ *fill*         0x000000000800729d        0x3 
+ .rodata        0x00000000080072a0       0x31 build/app/src/app_service.o
+ *fill*         0x00000000080072d1        0x3 
+ .rodata        0x00000000080072d4        0x7 build/app/src/app_timer.o
+ *fill*         0x00000000080072db        0x1 
+ .rodata        0x00000000080072dc       0x21 build/app/src/app_task.o
+ *fill*         0x00000000080072fd        0x3 
+ .rodata        0x0000000008007300       0x1b build/app/src/log.o
+ *fill*         0x000000000800731b        0x1 
+ .rodata        0x000000000800731c       0x3e build/app/src/app_system.o
+ *fill*         0x000000000800735a        0x2 
+ .rodata        0x000000000800735c       0x10 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+ .rodata        0x000000000800736c        0x5 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
  *fill*         0x0000000008007371        0x3 
- .rodata        0x0000000008007374       0x1b build/app/src/log.o
- *fill*         0x000000000800738f        0x1 
- .rodata        0x0000000008007390       0x3e build/app/src/app_system.o
- *fill*         0x00000000080073ce        0x2 
- .rodata        0x00000000080073d0       0x10 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
- .rodata        0x00000000080073e0        0x5 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
- *fill*         0x00000000080073e5        0x3 
- .rodata        0x00000000080073e8        0x8 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+ .rodata        0x0000000008007374        0x8 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
  *(.rodata*)
  .rodata.s_key_hw
-                0x00000000080073f0       0x10 build/drivers/bsp/gpio/src/bsp_key.o
+                0x000000000800737c       0x10 build/drivers/bsp/gpio/src/bsp_key.o
  .rodata.s_led_hw
-                0x0000000008007400       0x10 build/drivers/bsp/led/src/bsp_led.o
+                0x000000000800738c       0x10 build/drivers/bsp/led/src/bsp_led.o
  .rodata.s_uart_hw
-                0x0000000008007410       0x18 build/drivers/bsp/uart/src/bsp_uart.o
+                0x000000000800739c       0x18 build/drivers/bsp/uart/src/bsp_uart.o
  .rodata.AHBPrescTable
-                0x0000000008007428       0x10 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
-                0x0000000008007428                AHBPrescTable
+                0x00000000080073b4       0x10 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
+                0x00000000080073b4                AHBPrescTable
  .rodata.APBPrescTable
-                0x0000000008007438        0x8 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
-                0x0000000008007438                APBPrescTable
+                0x00000000080073c4        0x8 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
+                0x00000000080073c4                APBPrescTable
  .rodata._svfprintf_r.str1.1
-                0x0000000008007440       0x11 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000080073cc       0x11 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000008007451       0x22 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008007474                . = ALIGN (0x4)
- *fill*         0x0000000008007473        0x1 
+                0x00000000080073dd       0x22 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008007400                . = ALIGN (0x4)
+ *fill*         0x00000000080073ff        0x1 
 
-.rel.dyn        0x0000000008007474        0x0
- .rel.iplt      0x0000000008007474        0x0 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008007400        0x0
+ .rel.iplt      0x0000000008007400        0x0 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ARM.extab      0x0000000008007474        0x0
-                0x0000000008007474                . = ALIGN (0x4)
+.ARM.extab      0x0000000008007400        0x0
+                0x0000000008007400                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008007474                . = ALIGN (0x4)
+                0x0000000008007400                . = ALIGN (0x4)
 
-.ARM            0x0000000008007474        0x0
-                0x0000000008007474                . = ALIGN (0x4)
-                0x0000000008007474                __exidx_start = .
+.ARM            0x0000000008007400        0x0
+                0x0000000008007400                . = ALIGN (0x4)
+                0x0000000008007400                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008007474                __exidx_end = .
-                0x0000000008007474                . = ALIGN (0x4)
+                0x0000000008007400                __exidx_end = .
+                0x0000000008007400                . = ALIGN (0x4)
 
-.preinit_array  0x0000000008007474        0x0
-                0x0000000008007474                . = ALIGN (0x4)
-                0x0000000008007474                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008007400        0x0
+                0x0000000008007400                . = ALIGN (0x4)
+                0x0000000008007400                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008007474                PROVIDE (__preinit_array_end = .)
-                0x0000000008007474                . = ALIGN (0x4)
+                0x0000000008007400                PROVIDE (__preinit_array_end = .)
+                0x0000000008007400                . = ALIGN (0x4)
 
-.init_array     0x0000000008007474        0x4
-                0x0000000008007474                . = ALIGN (0x4)
-                0x0000000008007474                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008007400        0x4
+                0x0000000008007400                . = ALIGN (0x4)
+                0x0000000008007400                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008007474        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0000000008007478                PROVIDE (__init_array_end = .)
-                0x0000000008007478                . = ALIGN (0x4)
+ .init_array    0x0000000008007400        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000008007404                PROVIDE (__init_array_end = .)
+                0x0000000008007404                . = ALIGN (0x4)
 
-.fini_array     0x0000000008007478        0x4
-                0x0000000008007478                . = ALIGN (0x4)
+.fini_array     0x0000000008007404        0x4
+                0x0000000008007404                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008007478        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x0000000008007404        0x4 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800747c                . = ALIGN (0x4)
-                0x000000000800747c                _sidata = LOADADDR (.data)
+                0x0000000008007408                . = ALIGN (0x4)
+                0x0000000008007408                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x78 load address 0x000000000800747c
+.data           0x0000000020000000       0x78 load address 0x0000000008007408
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -4373,10 +4373,10 @@ LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.
                 0x0000000020000078                . = ALIGN (0x4)
                 0x0000000020000078                _edata = .
 
-.igot.plt       0x0000000020000078        0x0 load address 0x00000000080074f4
+.igot.plt       0x0000000020000078        0x0 load address 0x0000000008007480
  .igot.plt      0x0000000020000078        0x0 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.bss            0x0000000020000078     0x36e0 load address 0x00000000080074f4
+.bss            0x0000000020000078     0x36e0 load address 0x0000000008007480
                 0x0000000020000078                . = ALIGN (0x4)
                 0x0000000020000078                _sbss = .
                 0x0000000020000078                __bss_start__ = _sbss
@@ -4488,7 +4488,7 @@ LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.
                 0x0000000020003758                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020003758      0xc00 load address 0x00000000080074f4
+                0x0000000020003758      0xc00 load address 0x0000000008007480
                 0x0000000020003758                . = ALIGN (0x8)
                 0x0000000020003758                PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
@@ -4622,39 +4622,39 @@ LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-
 LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
 LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
 
-.debug_info     0x0000000000000000     0xbcdd
+.debug_info     0x0000000000000000     0xbc97
  .debug_info    0x0000000000000000       0x4e build/app/src/app.o
  .debug_info    0x000000000000004e      0x3cf build/app/src/app_event.o
  .debug_info    0x000000000000041d      0x181 build/app/src/app_key.o
- .debug_info    0x000000000000059e      0x2c1 build/app/src/app_key_demo.o
- .debug_info    0x000000000000085f      0x1a4 build/app/src/app_key_input.o
- .debug_info    0x0000000000000a03      0x169 build/app/src/app_led_demo.o
- .debug_info    0x0000000000000b6c       0x55 build/app/src/app_service.o
- .debug_info    0x0000000000000bc1      0x1a3 build/app/src/app_timer.o
- .debug_info    0x0000000000000d64       0x6a build/app/src/app_task.o
- .debug_info    0x0000000000000dce      0x346 build/app/src/log.o
- .debug_info    0x0000000000001114       0xd4 build/app/src/app_system.o
- .debug_info    0x00000000000011e8       0x94 build/app/src/main.o
- .debug_info    0x000000000000127c      0x6dc build/drivers/bsp/gpio/src/bsp_key.o
- .debug_info    0x0000000000001958      0x438 build/drivers/bsp/led/src/bsp_led.o
- .debug_info    0x0000000000001d90      0xf6b build/drivers/bsp/uart/src/bsp_uart.o
- .debug_info    0x0000000000002cfb      0x28e build/platform/boards/stm32f103rct6_generic/src/board.o
- .debug_info    0x0000000000002f89      0x183 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
- .debug_info    0x000000000000310c       0xf0 build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
- .debug_info    0x00000000000031fc      0x3f8 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
- .debug_info    0x00000000000035f4      0x72f build/platform/hal/stm32f1/src/stm32f1xx_hal.o
- .debug_info    0x0000000000003d23      0xb86 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
- .debug_info    0x00000000000048a9      0x732 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
- .debug_info    0x0000000000004fdb      0x605 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
- .debug_info    0x00000000000055e0      0x819 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
- .debug_info    0x0000000000005df9     0x121e build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
- .debug_info    0x0000000000007017      0x147 build/rtos/wrappers/src/rtos_hooks.o
- .debug_info    0x000000000000715e      0x2cc build/third_party/freertos/FreeRTOS-Kernel-main/list.o
- .debug_info    0x000000000000742a     0x128b build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
- .debug_info    0x00000000000086b5     0x1de0 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
- .debug_info    0x000000000000a495      0xe0d build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
- .debug_info    0x000000000000b2a2      0x4e2 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
- .debug_info    0x000000000000b784      0x559 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
+ .debug_info    0x000000000000059e      0x27b build/app/src/app_key_demo.o
+ .debug_info    0x0000000000000819      0x1a4 build/app/src/app_key_input.o
+ .debug_info    0x00000000000009bd      0x169 build/app/src/app_led_demo.o
+ .debug_info    0x0000000000000b26       0x55 build/app/src/app_service.o
+ .debug_info    0x0000000000000b7b      0x1a3 build/app/src/app_timer.o
+ .debug_info    0x0000000000000d1e       0x6a build/app/src/app_task.o
+ .debug_info    0x0000000000000d88      0x346 build/app/src/log.o
+ .debug_info    0x00000000000010ce       0xd4 build/app/src/app_system.o
+ .debug_info    0x00000000000011a2       0x94 build/app/src/main.o
+ .debug_info    0x0000000000001236      0x6dc build/drivers/bsp/gpio/src/bsp_key.o
+ .debug_info    0x0000000000001912      0x438 build/drivers/bsp/led/src/bsp_led.o
+ .debug_info    0x0000000000001d4a      0xf6b build/drivers/bsp/uart/src/bsp_uart.o
+ .debug_info    0x0000000000002cb5      0x28e build/platform/boards/stm32f103rct6_generic/src/board.o
+ .debug_info    0x0000000000002f43      0x183 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+ .debug_info    0x00000000000030c6       0xf0 build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+ .debug_info    0x00000000000031b6      0x3f8 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
+ .debug_info    0x00000000000035ae      0x72f build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+ .debug_info    0x0000000000003cdd      0xb86 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+ .debug_info    0x0000000000004863      0x732 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+ .debug_info    0x0000000000004f95      0x605 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
+ .debug_info    0x000000000000559a      0x819 build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+ .debug_info    0x0000000000005db3     0x121e build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+ .debug_info    0x0000000000006fd1      0x147 build/rtos/wrappers/src/rtos_hooks.o
+ .debug_info    0x0000000000007118      0x2cc build/third_party/freertos/FreeRTOS-Kernel-main/list.o
+ .debug_info    0x00000000000073e4     0x128b build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+ .debug_info    0x000000000000866f     0x1de0 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+ .debug_info    0x000000000000a44f      0xe0d build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+ .debug_info    0x000000000000b25c      0x4e2 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+ .debug_info    0x000000000000b73e      0x559 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
 
 .debug_abbrev   0x0000000000000000     0x2cfe
  .debug_abbrev  0x0000000000000000       0x31 build/app/src/app.o
@@ -4908,103 +4908,103 @@ LOAD /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgc
  .debug_macro   0x00000000000197fb      0x2d5 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
  .debug_macro   0x0000000000019ad0      0x330 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
 
-.debug_line     0x0000000000000000     0xf5b4
+.debug_line     0x0000000000000000     0xf558
  .debug_line    0x0000000000000000       0x8e build/app/src/app.o
  .debug_line    0x000000000000008e      0x6c0 build/app/src/app_event.o
  .debug_line    0x000000000000074e      0x128 build/app/src/app_key.o
- .debug_line    0x0000000000000876      0x6b1 build/app/src/app_key_demo.o
- .debug_line    0x0000000000000f27      0x5b7 build/app/src/app_key_input.o
- .debug_line    0x00000000000014de      0x5c6 build/app/src/app_led_demo.o
- .debug_line    0x0000000000001aa4      0x110 build/app/src/app_service.o
- .debug_line    0x0000000000001bb4      0x5e1 build/app/src/app_timer.o
- .debug_line    0x0000000000002195      0x11d build/app/src/app_task.o
- .debug_line    0x00000000000022b2      0x736 build/app/src/log.o
- .debug_line    0x00000000000029e8      0x109 build/app/src/app_system.o
- .debug_line    0x0000000000002af1      0x55c build/app/src/main.o
- .debug_line    0x000000000000304d      0x5c8 build/drivers/bsp/gpio/src/bsp_key.o
- .debug_line    0x0000000000003615      0x569 build/drivers/bsp/led/src/bsp_led.o
- .debug_line    0x0000000000003b7e      0xa0e build/drivers/bsp/uart/src/bsp_uart.o
- .debug_line    0x000000000000458c      0x523 build/platform/boards/stm32f103rct6_generic/src/board.o
- .debug_line    0x0000000000004aaf      0x699 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
- .debug_line    0x0000000000005148      0x18f build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
- .debug_line    0x00000000000052d7      0x4c7 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
- .debug_line    0x000000000000579e      0x6ab build/platform/hal/stm32f1/src/stm32f1xx_hal.o
- .debug_line    0x0000000000005e49      0x899 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
- .debug_line    0x00000000000066e2      0xfdb build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
- .debug_line    0x00000000000076bd      0x773 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
- .debug_line    0x0000000000007e30      0xabf build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
- .debug_line    0x00000000000088ef     0x1495 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
- .debug_line    0x0000000000009d84      0x576 build/rtos/wrappers/src/rtos_hooks.o
- .debug_line    0x000000000000a2fa      0x6b1 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
- .debug_line    0x000000000000a9ab     0x1389 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
- .debug_line    0x000000000000bd34     0x191f build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
- .debug_line    0x000000000000d653      0xcc0 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
- .debug_line    0x000000000000e313      0x82f build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
- .debug_line    0x000000000000eb42      0xa72 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
+ .debug_line    0x0000000000000876      0x655 build/app/src/app_key_demo.o
+ .debug_line    0x0000000000000ecb      0x5b7 build/app/src/app_key_input.o
+ .debug_line    0x0000000000001482      0x5c6 build/app/src/app_led_demo.o
+ .debug_line    0x0000000000001a48      0x110 build/app/src/app_service.o
+ .debug_line    0x0000000000001b58      0x5e1 build/app/src/app_timer.o
+ .debug_line    0x0000000000002139      0x11d build/app/src/app_task.o
+ .debug_line    0x0000000000002256      0x736 build/app/src/log.o
+ .debug_line    0x000000000000298c      0x109 build/app/src/app_system.o
+ .debug_line    0x0000000000002a95      0x55c build/app/src/main.o
+ .debug_line    0x0000000000002ff1      0x5c8 build/drivers/bsp/gpio/src/bsp_key.o
+ .debug_line    0x00000000000035b9      0x569 build/drivers/bsp/led/src/bsp_led.o
+ .debug_line    0x0000000000003b22      0xa0e build/drivers/bsp/uart/src/bsp_uart.o
+ .debug_line    0x0000000000004530      0x523 build/platform/boards/stm32f103rct6_generic/src/board.o
+ .debug_line    0x0000000000004a53      0x699 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+ .debug_line    0x00000000000050ec      0x18f build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+ .debug_line    0x000000000000527b      0x4c7 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
+ .debug_line    0x0000000000005742      0x6ab build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+ .debug_line    0x0000000000005ded      0x899 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+ .debug_line    0x0000000000006686      0xfdb build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+ .debug_line    0x0000000000007661      0x773 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
+ .debug_line    0x0000000000007dd4      0xabf build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+ .debug_line    0x0000000000008893     0x1495 build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+ .debug_line    0x0000000000009d28      0x576 build/rtos/wrappers/src/rtos_hooks.o
+ .debug_line    0x000000000000a29e      0x6b1 build/third_party/freertos/FreeRTOS-Kernel-main/list.o
+ .debug_line    0x000000000000a94f     0x1389 build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+ .debug_line    0x000000000000bcd8     0x191f build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+ .debug_line    0x000000000000d5f7      0xcc0 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+ .debug_line    0x000000000000e2b7      0x82f build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+ .debug_line    0x000000000000eae6      0xa72 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
 
-.debug_str      0x0000000000000000    0x87a36
+.debug_str      0x0000000000000000    0x87a19
  .debug_str     0x0000000000000000     0x2ca3 build/app/src/app.o
  .debug_str     0x0000000000002ca3    0x7a9da build/app/src/app_event.o
                                       0x7da3b (size before relaxing)
  .debug_str     0x000000000007d67d       0x3b build/app/src/app_key.o
                                        0x31e6 (size before relaxing)
- .debug_str     0x000000000007d6b8       0xd9 build/app/src/app_key_demo.o
-                                      0x7d224 (size before relaxing)
- .debug_str     0x000000000007d791       0xf6 build/app/src/app_key_input.o
+ .debug_str     0x000000000007d6b8       0xbc build/app/src/app_key_demo.o
+                                      0x7d1f5 (size before relaxing)
+ .debug_str     0x000000000007d774       0xf6 build/app/src/app_key_input.o
                                       0x7cf3f (size before relaxing)
- .debug_str     0x000000000007d887       0x89 build/app/src/app_led_demo.o
+ .debug_str     0x000000000007d86a       0x89 build/app/src/app_led_demo.o
                                       0x7d103 (size before relaxing)
- .debug_str     0x000000000007d910       0x46 build/app/src/app_service.o
+ .debug_str     0x000000000007d8f3       0x46 build/app/src/app_service.o
                                        0x2e0d (size before relaxing)
- .debug_str     0x000000000007d956      0x9b9 build/app/src/app_timer.o
+ .debug_str     0x000000000007d939      0x9b9 build/app/src/app_timer.o
                                       0x7d862 (size before relaxing)
- .debug_str     0x000000000007e30f       0x22 build/app/src/app_task.o
+ .debug_str     0x000000000007e2f2       0x22 build/app/src/app_task.o
                                        0x2e81 (size before relaxing)
- .debug_str     0x000000000007e331     0x3561 build/app/src/log.o
+ .debug_str     0x000000000007e314     0x3561 build/app/src/log.o
                                       0x80c3b (size before relaxing)
- .debug_str     0x0000000000081892       0x2d build/app/src/app_system.o
+ .debug_str     0x0000000000081875       0x2d build/app/src/app_system.o
                                        0x31c8 (size before relaxing)
- .debug_str     0x00000000000818bf       0x1d build/app/src/main.o
+ .debug_str     0x00000000000818a2       0x1d build/app/src/main.o
                                       0x7cdee (size before relaxing)
- .debug_str     0x00000000000818dc      0x757 build/drivers/bsp/gpio/src/bsp_key.o
+ .debug_str     0x00000000000818bf      0x757 build/drivers/bsp/gpio/src/bsp_key.o
                                       0x72d7e (size before relaxing)
- .debug_str     0x0000000000082033       0x96 build/drivers/bsp/led/src/bsp_led.o
+ .debug_str     0x0000000000082016       0x96 build/drivers/bsp/led/src/bsp_led.o
                                       0x72904 (size before relaxing)
- .debug_str     0x00000000000820c9      0x68e build/drivers/bsp/uart/src/bsp_uart.o
+ .debug_str     0x00000000000820ac      0x68e build/drivers/bsp/uart/src/bsp_uart.o
                                       0x8044d (size before relaxing)
- .debug_str     0x0000000000082757      0x18d build/platform/boards/stm32f103rct6_generic/src/board.o
+ .debug_str     0x000000000008273a      0x18d build/platform/boards/stm32f103rct6_generic/src/board.o
                                       0x72947 (size before relaxing)
- .debug_str     0x00000000000828e4      0x160 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
+ .debug_str     0x00000000000828c7      0x160 build/platform/boards/stm32f103rct6_generic/src/board_irq.o
                                       0x7d263 (size before relaxing)
- .debug_str     0x0000000000082a44       0xff build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
+ .debug_str     0x0000000000082a27       0xff build/platform/boards/stm32f103rct6_generic/src/stm32f1xx_it.o
                                        0x2d6c (size before relaxing)
- .debug_str     0x0000000000082b43      0x113 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
+ .debug_str     0x0000000000082b26      0x113 build/platform/cmsis/device/st/stm32f1xx/src/system_stm32f1xx.o
                                       0x725fa (size before relaxing)
- .debug_str     0x0000000000082c56      0x43b build/platform/hal/stm32f1/src/stm32f1xx_hal.o
+ .debug_str     0x0000000000082c39      0x43b build/platform/hal/stm32f1/src/stm32f1xx_hal.o
                                       0x72d15 (size before relaxing)
- .debug_str     0x0000000000083091      0x2c1 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
+ .debug_str     0x0000000000083074      0x2c1 build/platform/hal/stm32f1/src/stm32f1xx_hal_cortex.o
                                       0x72cbd (size before relaxing)
- .debug_str     0x0000000000083352      0x239 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
+ .debug_str     0x0000000000083335      0x239 build/platform/hal/stm32f1/src/stm32f1xx_hal_dma.o
                                       0x728f7 (size before relaxing)
- .debug_str     0x000000000008358b      0x313 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
+ .debug_str     0x000000000008356e      0x313 build/platform/hal/stm32f1/src/stm32f1xx_hal_gpio.o
                                       0x728e0 (size before relaxing)
- .debug_str     0x000000000008389e      0x27c build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
+ .debug_str     0x0000000000083881      0x27c build/platform/hal/stm32f1/src/stm32f1xx_hal_rcc.o
                                       0x72962 (size before relaxing)
- .debug_str     0x0000000000083b1a      0x4fb build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
+ .debug_str     0x0000000000083afd      0x4fb build/platform/hal/stm32f1/src/stm32f1xx_hal_uart.o
                                       0x72e1a (size before relaxing)
- .debug_str     0x0000000000084015       0x8b build/rtos/wrappers/src/rtos_hooks.o
+ .debug_str     0x0000000000083ff8       0x8b build/rtos/wrappers/src/rtos_hooks.o
                                       0x7ce97 (size before relaxing)
- .debug_str     0x00000000000840a0      0x22d build/third_party/freertos/FreeRTOS-Kernel-main/list.o
+ .debug_str     0x0000000000084083      0x22d build/third_party/freertos/FreeRTOS-Kernel-main/list.o
                                       0x7e31b (size before relaxing)
- .debug_str     0x00000000000842cd      0x9bb build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
+ .debug_str     0x00000000000842b0      0x9bb build/third_party/freertos/FreeRTOS-Kernel-main/queue.o
                                       0x80929 (size before relaxing)
- .debug_str     0x0000000000084c88     0x17e3 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
+ .debug_str     0x0000000000084c6b     0x17e3 build/third_party/freertos/FreeRTOS-Kernel-main/tasks.o
                                       0x819c2 (size before relaxing)
- .debug_str     0x000000000008646b      0x619 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
+ .debug_str     0x000000000008644e      0x619 build/third_party/freertos/FreeRTOS-Kernel-main/timers.o
                                       0x80e99 (size before relaxing)
- .debug_str     0x0000000000086a84      0x862 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
+ .debug_str     0x0000000000086a67      0x862 build/third_party/freertos/FreeRTOS-Kernel-main/portable/GCC/ARM_CM3/port.o
                                       0x7d731 (size before relaxing)
- .debug_str     0x00000000000872e6      0x750 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
+ .debug_str     0x00000000000872c9      0x750 build/third_party/freertos/FreeRTOS-Kernel-main/portable/MemMang/heap_4.o
                                       0x7fe4d (size before relaxing)
 
 .comment        0x0000000000000000       0x49
